@@ -10,7 +10,7 @@ $(document).ready(function () {
     $('#gifs').empty();
 
     var searchChar = $(this).attr("data-name");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + searchChar + "&api_key=l6tFREk09Hw9braVsKXvCbcIskMh7ovi";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + searchChar + "&api_key=l6tFREk09Hw9braVsKXvCbcIskMh7ovi";
 
 
     console.log(searchChar);
